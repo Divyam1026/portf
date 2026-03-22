@@ -78,7 +78,7 @@
         <span class="dot dot-g"></span>
         <span style="font-family:var(--mono); font-size:11px; color:var(--muted); margin-left:8px;" id="term-title">~/divyam -- bash</span>
       </div>
-      <div class="terminal-body" id="term-output" style="overflow-y:auto; padding-bottom:0.5rem;"></div>
+      <div class="terminal-body" id="term-output" style="min-height:260px; max-height:340px; overflow-y:auto; padding-bottom:0.5rem;"></div>
       <div style="display:flex; align-items:center; padding:0.6rem 1.25rem; border-top:1px solid var(--border); gap:6px;">
         <span style="color:var(--accent); font-family:var(--mono); font-size:13.5px; white-space:nowrap;">divyam@portfolio:~$</span>
         <input id="term-input" type="text" autocomplete="off" spellcheck="false"
@@ -387,4 +387,8 @@
   </div>
 </footer>
 
-<canvas id="spotlight" st
+<canvas id="spotlight" style="position:fixed;inset:0;pointer-events:none;z-index:998;opacity:0;transition:opacity 0.3s;"></canvas>
+<script src="main.js"></script>
+
+</body>
+</html>
