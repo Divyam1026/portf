@@ -284,11 +284,6 @@
     overflow: hidden;
   }
 
-  #term-output {
-    min-height: 260px;
-    max-height: 340px;
-  }
-
   .terminal-header {
     display: flex;
     align-items: center;
@@ -967,42 +962,10 @@
     nav { padding: 1rem 1.5rem; }
     .nav-links { display: none; }
     section { padding: 4rem 1.5rem; }
-    .about-grid { grid-template-columns: 1fr; gap: 2rem; }
-    .contact-wrapper { grid-template-columns: 1fr; }
+    .about-grid, .contact-wrapper { grid-template-columns: 1fr; }
     .project-card { grid-template-columns: 1fr; }
     .project-links { flex-direction: row; align-items: flex-start; }
     .footer-inner { flex-direction: column; gap: 0.5rem; }
-
-    /* Terminal — full width, compact height on mobile */
-    .terminal-box { width: 100%; min-width: 0; }
-    #term-output {
-      min-height: 180px !important;
-      max-height: 220px !important;
-      font-size: 12px !important;
-    }
-    #term-input {
-      font-size: 12px !important;
-    }
-    .terminal-body {
-      font-size: 12px;
-      padding: 1rem;
-      line-height: 1.9;
-    }
-    /* Input row prompt — shorten on very small screens */
-    #live-terminal > div:last-child span {
-      font-size: 11px !important;
-    }
-  }
-
-  @media (max-width: 420px) {
-    #term-output {
-      min-height: 150px !important;
-      max-height: 190px !important;
-      font-size: 11.5px !important;
-    }
-    #term-input { font-size: 11.5px !important; }
-    .terminal-body { font-size: 11.5px; }
-    #live-terminal > div:last-child span { font-size: 10.5px !important; }
   }
 
 
