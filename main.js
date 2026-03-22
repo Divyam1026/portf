@@ -208,10 +208,13 @@
 
         whoami: () => [
           '<span class="key">{</span>',
-          '  <span class="key">"name"</span>      : <span class="val">"Alex Singh"</span>,',
-          '  <span class="key">"role"</span>      : <span class="val">"Cybersecurity Student"</span>,',
-          '  <span class="key">"education"</span> : <span class="val">"B.Tech CSE (Sec)"</span>,',
-          '  <span class="key">"location"</span>  : <span class="val">"India"</span>,',
+          '  <span class="key">"name"</span>      : <span class="val">"Divyam Manchanda"</span>,',
+          '  <span class="key">"role"</span>      : <span class="val">"Cybersecurity Student &amp; Researcher"</span>,',
+          '  <span class="key">"education"</span> : <span class="val">"B.Tech CSE Hons. Cybersecurity &amp; Blockchain"</span>,',
+          '  <span class="key">"university"</span>: <span class="val">"Lovely Professional University"</span>,',
+          '  <span class="key">"cgpa"</span>      : <span class="val">"7.5"</span>,',
+          '  <span class="key">"location"</span>  : <span class="val">"Punjab, India"</span>,',
+          '  <span class="key">"experience"</span>: <span class="val">"DRDO Cybersecurity Trainee"</span>,',
           '  <span class="key">"available"</span> : <span class="ok">true</span>,',
           '  <span class="key">"motto"</span>     : <span class="val">"Hack to protect."</span>',
           '<span class="key">}</span>',
@@ -219,32 +222,30 @@
 
         skills: () => [
           '<span class="dim">Technical skills:</span>',
-          '  <span class="ok">●</span> <span class="key">Pentest</span>    Metasploit · Burp Suite · Nmap · SQLMap',
-          '  <span class="ok">●</span> <span class="key">Web Sec</span>    OWASP Top 10 · XSS · SQLi · CSRF · IDOR',
-          '  <span class="ok">●</span> <span class="key">Forensics</span>  Wireshark · Volatility · Ghidra · Autopsy',
-          '  <span class="ok">●</span> <span class="key">Languages</span>  Python · Bash · C · JavaScript · SQL',
-          '  <span class="ok">●</span> <span class="key">Blue Team</span>  Splunk · Snort · ELK Stack · Suricata',
-          '  <span class="ok">●</span> <span class="key">Systems</span>    Linux · Kali · Docker · Active Directory',
+          '  <span class="ok">●</span> <span class="key">Languages</span>  C · C++ · Python · HTML · CSS · JavaScript',
+          '  <span class="ok">●</span> <span class="key">Frameworks</span> OWASP Top 10 · Mitre ATT&amp;CK · Cyber Kill Chain',
+          '  <span class="ok">●</span> <span class="key">Tools</span>      Nmap · Wireshark · Burp Suite · Metasploit · AWS',
+          '  <span class="ok">●</span> <span class="key">Tech</span>       VAPT · Cloud Security · Digital Forensics',
+          '  <span class="ok">●</span> <span class="key">Cloud</span>      AWS · Serverless · SNS · S3 · Misconfiguration Hunting',
+          '  <span class="ok">●</span> <span class="key">Soft</span>       Leadership · Communication · Project Management',
         ],
 
         projects: () => [
-          '<span class="dim">Projects & CTF writeups:</span>',
-          '  <span class="val">[1]</span> SQL Injection — HackTheBox: Appointment     <span class="hint">easy</span>',
-          '  <span class="val">[2]</span> Network Port Scanner (Python)               <span class="dim">tool</span>',
-          '  <span class="val">[3]</span> Memory Forensics — TryHackMe: Volatility    <span class="hint">medium</span>',
-          '  <span class="val">[4]</span> Active Directory Attack Lab                  <span class="err">hard</span>',
-          '  <span class="val">[5]</span> RSA Weak Keys — PicoCTF                     <span class="hint">medium</span>',
+          '<span class="dim">Projects:</span>',
+          '  <span class="val">[1]</span> AWS Cloud Security Scanner                  <span class="err">advanced</span>  Jan 2026',
+          '  <span class="val">[2]</span> Deepfake Detector (PyTorch + Flask)          <span class="hint">intermediate</span>  Apr 2025',
+          '  <span class="val">[3]</span> Remote Access Backdoor (Python)             <span class="err">advanced</span>  Feb 2025',
+          '  <span class="val">[4]</span> Web Security Testing @ DRDO                 <span class="hint">internship</span>  Jun-Jul 2025',
           '<span class="dim">Scroll to #projects for full details.</span>',
         ],
 
         certs: () => [
           '<span class="dim">Certifications:</span>',
-          '  <span class="ok">✓</span> ISC² Certified in Cybersecurity (CC)      <span class="val">2024</span>',
-          '  <span class="ok">✓</span> TryHackMe SOC Level 1                     <span class="val">2024</span>',
-          '  <span class="ok">✓</span> HackTheBox Pro Hacker                     <span class="val">2024</span>',
-          '  <span class="ok">✓</span> Cisco Network Security Fundamentals       <span class="val">2023</span>',
-          '  <span class="dim">⧖</span> CEH — EC-Council                          <span class="dim">in progress</span>',
-          '  <span class="dim">⧖</span> eJPT — eLearnSecurity                     <span class="dim">planned 2025</span>',
+          '  <span class="ok">✓</span> CNSP — The SecOps Group                   <span class="val">Jan 2026</span>',
+          '  <span class="ok">✓</span> eJPT v2 — INE / eLearnSecurity            <span class="val">Sep 2025</span>',
+          '  <span class="ok">✓</span> Oracle Certified Foundations Associate    <span class="val">Sep 2025</span>',
+          '  <span class="ok">✓</span> Certified Cloud Associate — INE           <span class="val">Sep 2025</span>',
+          '  <span class="ok">✓</span> CompTIA Network+                          <span class="val">Jul 2025</span>',
         ],
 
         ctf: () => [
@@ -258,10 +259,10 @@
 
         contact: () => [
           '<span class="dim">Contact info:</span>',
-          '  <span class="key">Email</span>    <span class="val">alex.singh@email.com</span>',
-          '  <span class="key">GitHub</span>   <span class="val">github.com/alexsec</span>',
-          '  <span class="key">LinkedIn</span> <span class="val">linkedin.com/in/alexsingh</span>',
-          '  <span class="key">THM</span>      <span class="val">tryhackme.com/p/alexsingh</span>',
+          '  <span class="key">Email</span>    <span class="val">divyammanchanda2610@gmail.com</span>',
+          '  <span class="key">GitHub</span>   <span class="val">github.com/divyam-26</span>',
+          '  <span class="key">LinkedIn</span> <span class="val">linkedin.com/in/divyam26</span>',
+          '  <span class="key">Phone</span>    <span class="val">+91 87089 51566</span>',
         ],
 
         'cat flag.txt': () => [
@@ -353,7 +354,7 @@
       // Boot message
       typeWriter([
         '<span class="dim">Kali GNU/Linux — alex@portfolio</span>',
-        '<span class="dim">Type <span style="color:var(--accent)">help</span> to see available commands.</span>',
+        '<span class="dim">Welcome to Divyam\'s portfolio. Type <span style="color:var(--accent)">help</span> to see commands.</span>',
         '',
       ], 40);
 
