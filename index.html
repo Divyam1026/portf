@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divyam Manchanda |  Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="nav-logo">&gt; divyam_manchanda.sec</div>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#certs">certs</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <a href="resume.pdf" class="btn btn-primary" download style="padding: 0.5rem 1rem; font-size: 11px;">⬇ Resume</a>
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="status-badge">
+      <span class="status-dot"></span>
+      Open to internships &amp; entry-level roles
+    </div>
+    <div class="hero-tag">Cybersecurity Student</div>
+    <h1>Divyam<br><span class="highlight">Manchanda.</span></h1>
+    <div class="hero-subtitle">
+      <span class="dim">// Aspiring security professional</span><br>
+      <span class="cmd">interests</span> = [<span class="val">"ethical hacking"</span>, <span class="val">"CTF challenges"</span>, <span class="val">"network security"</span>]<br>
+      <span class="cmd">status</span> = <span class="val">"learning &amp; building"</span><span class="cursor"></span>
+    </div>
+    <p style="font-size:15px; color:var(--muted); max-width: 520px; line-height:1.9;">
+      Final-year B.Tech student specialising in Information Security. I break things to understand how to defend them — CTF competitor, self-taught pentester, perpetual learner.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      <a href="resume.pdf" class="btn btn-secondary" download>Download CV ↓</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- About -->
+<section id="about">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2>About Me</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        I'm <strong>Alex Singh</strong>, a cybersecurity student with a deep curiosity for how digital systems can be compromised — and hardened. My journey started by breaking stuff in my home lab, and it hasn't stopped since.
+      </p>
+      <p>
+        I actively compete in <strong>CTF (Capture The Flag)</strong> competitions where I sharpen skills in reverse engineering, binary exploitation, web hacking, and OSINT. Every flag captured is a new lesson in how attackers think.
+      </p>
+      <p>
+        My goal is to work in <strong>penetration testing</strong> or <strong>security operations</strong>, helping organisations find and fix their vulnerabilities before attackers do. I believe in ethical, responsible security research.
+      </p>
+      <p>
+        Outside the terminal: I document my learning on my blog, contribute to open-source security tools, and help peers in online security communities.
+      </p>
+    </div>
+    <div class="terminal-box" id="live-terminal">
+      <div class="terminal-header">
+        <span class="dot dot-r" id="term-close" style="cursor:pointer;" title="clear"></span>
+        <span class="dot dot-y"></span>
+        <span class="dot dot-g"></span>
+        <span style="font-family:var(--mono); font-size:11px; color:var(--muted); margin-left:8px;" id="term-title">~/alex — bash</span>
+      </div>
+      <div class="terminal-body" id="term-output" style="min-height:260px; max-height:340px; overflow-y:auto; padding-bottom:0.5rem;"></div>
+      <div style="display:flex; align-items:center; padding:0.6rem 1.25rem; border-top:1px solid var(--border); gap:6px;">
+        <span style="color:var(--accent); font-family:var(--mono); font-size:13.5px; white-space:nowrap;">alex@portfolio:~$</span>
+        <input id="term-input" type="text" autocomplete="off" spellcheck="false"
+          style="flex:1; background:transparent; border:none; outline:none; color:var(--text); font-family:var(--mono); font-size:13.5px; caret-color:var(--accent);"
+          placeholder="type a command...">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <h2>Skills &amp; Tools</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <div class="skill-icon-symbol">🔍</div>
+      </div>
+      <h3>// penetration testing</h3>
+      <div class="tool-tags">
+        <span class="tag">Metasploit</span>
+        <span class="tag">Burp Suite</span>
+        <span class="tag">Nmap</span>
+        <span class="tag">Nikto</span>
+        <span class="tag">SQLMap</span>
+        <span class="tag">Gobuster</span>
+        <span class="tag">Hydra</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <div class="skill-icon-symbol">🌐</div>
+      </div>
+      <h3>// web security</h3>
+      <div class="tool-tags">
+        <span class="tag">OWASP Top 10</span>
+        <span class="tag">XSS</span>
+        <span class="tag">SQLi</span>
+        <span class="tag">CSRF</span>
+        <span class="tag">IDOR</span>
+        <span class="tag">SSRF</span>
+        <span class="tag">JWT attacks</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <div class="skill-icon-symbol">🔬</div>
+      </div>
+      <h3>// forensics &amp; analysis</h3>
+      <div class="tool-tags">
+        <span class="tag">Wireshark</span>
+        <span class="tag">Autopsy</span>
+        <span class="tag">Volatility</span>
+        <span class="tag">Ghidra</span>
+        <span class="tag">Binwalk</span>
+        <span class="tag">YARA</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <div class="skill-icon-symbol">💻</div>
+      </div>
+      <h3>// programming</h3>
+      <div class="tool-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Bash</span>
+        <span class="tag">C</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">PowerShell</span>
+        <span class="tag">SQL</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <div class="skill-icon-symbol">🛡️</div>
+      </div>
+      <h3>// blue team &amp; monitoring</h3>
+      <div class="tool-tags">
+        <span class="tag">Splunk</span>
+        <span class="tag">Snort</span>
+        <span class="tag">ELK Stack</span>
+        <span class="tag">Suricata</span>
+        <span class="tag">SIEM basics</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <div class="skill-icon-symbol">⚙️</div>
+      </div>
+      <h3>// systems &amp; networking</h3>
+      <div class="tool-tags">
+        <span class="tag">Linux</span>
+        <span class="tag">Kali Linux</span>
+        <span class="tag">TCP/IP</span>
+        <span class="tag">DNS</span>
+        <span class="tag">VMs</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Active Directory</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Projects / CTF Writeups -->
+<section id="projects">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <h2>Projects &amp; CTF Writeups</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">CTF Writeup &nbsp;·&nbsp; Web</div>
+        <h3>SQL Injection — HackTheBox: Appointment</h3>
+        <p>Exploited a login form vulnerable to classic SQLi to bypass authentication. Documented the enumeration process, payload crafting, and remediation steps.</p>
+        <div class="project-meta">
+          <span class="tag-accent">SQLi</span>
+          <span class="tag-accent">Auth bypass</span>
+          <span class="tag-accent">HackTheBox</span>
+        </div>
+      </div>
+      <div class="project-links">
+        <span class="difficulty-badge diff-easy">Easy</span>
+        <a href="#" class="link-btn">Writeup →</a>
+        <a href="#" class="link-btn">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Personal Project &nbsp;·&nbsp; Python</div>
+        <h3>Network Port Scanner</h3>
+        <p>Built a multi-threaded TCP port scanner in Python that identifies open ports, grabs service banners, and exports results to JSON. Inspired by Nmap fundamentals.</p>
+        <div class="project-meta">
+          <span class="tag-accent">Python</span>
+          <span class="tag-accent">Networking</span>
+          <span class="tag-accent">Sockets</span>
+        </div>
+      </div>
+      <div class="project-links">
+        <span class="difficulty-badge diff-medium">Intermediate</span>
+        <a href="#" class="link-btn">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">CTF Writeup &nbsp;·&nbsp; Forensics</div>
+        <h3>Memory Forensics — TryHackMe: Volatility</h3>
+        <p>Performed memory analysis on a Windows memory dump to identify a malware process, recover injected shellcode, and extract credentials using Volatility framework.</p>
+        <div class="project-meta">
+          <span class="tag-accent">Volatility</span>
+          <span class="tag-accent">Malware analysis</span>
+          <span class="tag-accent">DFIR</span>
+        </div>
+      </div>
+      <div class="project-links">
+        <span class="difficulty-badge diff-medium">Medium</span>
+        <a href="#" class="link-btn">Writeup →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Personal Project &nbsp;·&nbsp; Home Lab</div>
+        <h3>Active Directory Attack Lab</h3>
+        <p>Set up a Windows Server 2019 AD environment in VirtualBox to practice Kerberoasting, Pass-the-Hash, and BloodHound enumeration. Documented attack paths and mitigations.</p>
+        <div class="project-meta">
+          <span class="tag-accent">Active Directory</span>
+          <span class="tag-accent">BloodHound</span>
+          <span class="tag-accent">Impacket</span>
+          <span class="tag-accent">Mimikatz</span>
+        </div>
+      </div>
+      <div class="project-links">
+        <span class="difficulty-badge diff-hard">Advanced</span>
+        <a href="#" class="link-btn">GitHub →</a>
+        <a href="#" class="link-btn">Notes →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">CTF Writeup &nbsp;·&nbsp; Crypto</div>
+        <h3>RSA Weak Keys — PicoCTF</h3>
+        <p>Solved an RSA challenge with small prime factors by factoring n using Fermat's algorithm and recovering plaintext. Explored common RSA pitfalls and attack vectors.</p>
+        <div class="project-meta">
+          <span class="tag-accent">Cryptography</span>
+          <span class="tag-accent">RSA</span>
+          <span class="tag-accent">Python</span>
+          <span class="tag-accent">PicoCTF</span>
+        </div>
+      </div>
+      <div class="project-links">
+        <span class="difficulty-badge diff-medium">Medium</span>
+        <a href="#" class="link-btn">Writeup →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Certifications -->
+<section id="certs">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <h2>Certifications</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="certs-grid">
+
+    <div class="cert-card">
+      <div class="cert-logo">CC</div>
+      <div class="cert-name">Certified in Cybersecurity (CC)</div>
+      <div class="cert-issuer">ISC²</div>
+      <div class="cert-status">
+        <span class="cert-date">2024</span>
+        <span class="badge-earned">✓ Earned</span>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-logo">CEH</div>
+      <div class="cert-name">Certified Ethical Hacker (CEH)</div>
+      <div class="cert-issuer">EC-Council</div>
+      <div class="cert-status">
+        <span class="cert-date">2025</span>
+        <span class="badge-in-progress">In Progress</span>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-logo">THM</div>
+      <div class="cert-name">SOC Level 1 Path</div>
+      <div class="cert-issuer">TryHackMe</div>
+      <div class="cert-status">
+        <span class="cert-date">2024</span>
+        <span class="badge-earned">✓ Earned</span>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-logo">HTB</div>
+      <div class="cert-name">HackTheBox Pro Hacker</div>
+      <div class="cert-issuer">HackTheBox</div>
+      <div class="cert-status">
+        <span class="cert-date">2024</span>
+        <span class="badge-earned">✓ Earned</span>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-logo">GFG</div>
+      <div class="cert-name">Network Security Fundamentals</div>
+      <div class="cert-issuer">Cisco NetAcad</div>
+      <div class="cert-status">
+        <span class="cert-date">2023</span>
+        <span class="badge-earned">✓ Earned</span>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-logo">eJPT</div>
+      <div class="cert-name">eJPT — Junior Pentester</div>
+      <div class="cert-issuer">eLearnSecurity / INE</div>
+      <div class="cert-status">
+        <span class="cert-date">Target: 2025</span>
+        <span class="badge-in-progress">Planned</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="section-header">
+    <span class="section-num">05</span>
+    <h2>Contact</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-wrapper">
+    <div class="contact-info">
+      <p>I'm actively looking for internships, junior roles, and collaboration opportunities in cybersecurity. If you're a recruiter, mentor, or fellow hacker — let's connect.</p>
+      <div class="contact-links">
+        <a href="mailto:alex.singh@email.com" class="contact-item">
+          <div class="contact-icon">✉</div>
+          alex.singh@email.com
+        </a>
+        <a href="https://linkedin.com/in/alexsingh" target="_blank" class="contact-item">
+          <div class="contact-icon">in</div>
+          linkedin.com/in/alexsingh
+        </a>
+        <a href="https://github.com/alexsec" target="_blank" class="contact-item">
+          <div class="contact-icon">&lt;/&gt;</div>
+          github.com/alexsec
+        </a>
+        <a href="https://tryhackme.com/p/alexsingh" target="_blank" class="contact-item">
+          <div class="contact-icon">THM</div>
+          tryhackme.com/p/alexsingh
+        </a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Say something..."></textarea>
+      </div>
+      <button class="btn btn-primary" style="align-self: flex-start;" onclick="alert('Message sent! (Connect to a backend to make this functional)')">Send Message →</button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <span>Designed &amp; built by Alex Singh</span>
+    <span style="color: var(--accent)">// Stay curious. Stay ethical.</span>
+    <span>2025</span>
+  </div>
+</footer>
+
+
+
+<canvas id="spotlight" style="position:fixed;inset:0;pointer-events:none;z-index:998;opacity:0;transition:opacity 0.3s;"></canvas>
+<script src="main.js"></script>
+</body>
+</html>
