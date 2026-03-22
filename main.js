@@ -286,7 +286,7 @@
         ],
 
         'uname -a': () => [
-          '<span class="dim">Linux alex-portfolio 6.1.0-kali #1 SMP Debian x86_64 GNU/Linux</span>',
+          '<span class="dim">Linux divyam-portfolio 6.1.0-kali #1 SMP Debian x86_64 GNU/Linux</span>',
           '<span class="dim">Kernel: 6.1.0-kali | Arch: x86_64 | Shell: bash 5.2</span>',
         ],
       };
@@ -295,7 +295,7 @@
         if (cmdText !== undefined) {
           const echo = document.createElement('div');
           echo.className = 'line';
-          echo.innerHTML = '<span class="prompt">alex@portfolio:~$</span> <span class="cmd-echo">' + escHtml(cmdText) + '</span>';
+          echo.innerHTML = '<span class="prompt">divyam@portfolio:~$</span> <span class="cmd-echo">' + escHtml(cmdText) + '</span>';
           out.appendChild(echo);
         }
         (lines || []).forEach(l => {
@@ -353,7 +353,7 @@
 
       // Boot message
       typeWriter([
-        '<span class="dim">Kali GNU/Linux — alex@portfolio</span>',
+        '<span class="dim">Kali GNU/Linux — divyam@portfolio</span>',
         '<span class="dim">Welcome to Divyam\'s portfolio. Type <span style="color:var(--accent)">help</span> to see commands.</span>',
         '',
       ], 40);
